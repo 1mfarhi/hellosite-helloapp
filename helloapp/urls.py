@@ -1,6 +1,6 @@
 from django.urls import path
 from helloapp.views import HelloWorldView, HelloView, Goodbye
-from hellosite.helloapp.views import Goodbye
+# from hellosite.helloapp.views import Goodbye
 
 
 urlpatterns = [
