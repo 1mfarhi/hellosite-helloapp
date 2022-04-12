@@ -22,3 +22,4 @@ class GoodbyeView(View):
     def get(self, request, name):
         context = {'name': name}
         return render(request=request, template_name='goodbye_name.html', context=context,)
+        
